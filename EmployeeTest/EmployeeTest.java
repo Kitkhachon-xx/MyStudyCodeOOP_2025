@@ -6,8 +6,8 @@ public class EmployeeTest {
         Employee a = new Employee("Jack", bda);
         a.displayInfo();
 
-        //Date bdo = new Date(15,05,2000);
-        Teacher Juck = new Teacher("Jurk", new Date(15,05,2000), "Math");
+        Date bdo = new Date(15,05,2000);
+        Teacher Juck = new Teacher("Jurk",bdo, "Math");
         Juck.displayInfo();
     }
 
